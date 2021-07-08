@@ -9,7 +9,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # objeto de conexão
 print('Cliente Socket Criado com Sucesso !!!')
 
 host = 'localhost'
-porta = 5433
+port = 5433
 mensagem = 'Finalmente nos encontramos'
 
 try:
